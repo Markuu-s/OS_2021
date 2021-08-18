@@ -1,0 +1,138 @@
+    1  sudo apt-get update
+    2  ls
+    3  wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.deb
+    4  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    5  ls /lib/firmware
+    6  ls
+    7  ls Рабочий\ стол
+    8  ls
+    9  cd Рабочий\ стол
+   10  cd iwlwifi-3168-ucode-22.361476.0
+   11  ls
+   12  mv *.ucode /lib/firmware
+   13  sudo mv *.ucode /lib/firmware
+   14  syncclient
+   15  sudo apt install synclient
+   16  sudo apt-get install xinput
+   17  xinput list props 14
+   18  xinput set-prop 14 "Synaptics Tap Action" 1, 1, 1, 1, 1, 1, 1
+   19  dpkg -l | grep xorg | grep synaptics
+   20  sudo apt-get install xserver-xorg-input-synaptics
+   21  sudo apt install synaptics
+   22  sudo apt update
+   23  sudo lshw -class network 
+   24  lspci
+   25  ls /lib/firmware 
+   26  ls /lib/firmware/isci
+   27  google-chrome
+   28  google-chrome &
+   29  google-chrome 
+   30  google-chrome &
+   31  ls
+   32  code
+   33  sudo apt install ./code_1.59.0-1628120042_amd64.deb
+   34  google-chrome > dev/null 2>&1 &
+   35  sudo apt install WIRESHARK
+   36  sudo apt upgrade
+   37  g++
+   38  ls
+   39  wget https://go.microsoft.com/fwlink/?LinkID=760868
+   40  sudo apt install apt-transport-https
+   41  sudo apt update
+   42  sudo apt install code
+   43  sudo apt install code-insiders
+   44  google-chrome
+   45  ./start-tor-browser.desktop
+   46  aptitude -r install network-manager-openvpn-gnome network-manager-pptp network-manager-pptp-gnome strongswan-nm network-manager-vpne network-manager-vpnc-gnome
+   47  sudo apt install golang
+   48  privoxy
+   49  autovpn
+   50  sudo autovpn
+   51  sudo apt-get install openvpn
+   52  git clone https://github.com/adtac/autovpn
+   53  curl suip.biz/ip/
+   54  tor
+   55  sudo systemctl start tor\nsudo systemctl enable tor\nsudo systemctl start privoxy\nsudo systemctl enable privoxy
+   56  sudo systemctl start tor
+   57  sudo systemctl enable tor
+   58  sudo systemctl start privoxy
+   59  sudo systemctl enable privoxy
+   60  cp -f /etc/bash.bashrc{,.bak}
+   61  sudo cp -f /etc/bash.bashrc{,.bak}
+   62  cat /etc/privoxy/config
+   63  sudo nano 
+   64  sudo nano  /etc/privoxy/config
+   65  fg
+   66  sudo nano  /etc/privoxy/config
+   67  sudo systemctl start tor
+   68  sudo systemctl enable tor
+   69  sudo systemctl start privoxy
+   70  sudo systemctl enable privoxy
+   71  cp -f /etc/bash.bashrc{,.bak}
+   72  sudo cp -f /etc/bash.bashrc{,.bak}
+   73  sudo nano /etc/bash.bashrc
+   74  curl suip.biz/ip/
+   75  tor
+   76  ps
+   77  tor
+   78  ps
+   79  ps -all
+   80  tor
+   81  cat /etc/privoxy/config
+   82  vim 
+   83  vim /etc/privoxy/config
+   84  nano /etc/privoxy/config
+   85  sudo nano /etc/privoxy/config
+   86  sudo apt-get install tor privoxy
+   87  tor
+   88  code
+   89  sudo apt install g++
+   90  sudo apt install gcc
+   91  g++ 
+   92  python
+   93  sudo apt install python3
+   94  python3
+   95  make
+   96  sudo apt install make
+   97  python3
+   98  ls
+   99  man getit
+  100  man gedit
+  101  gedit f
+  102  echo a > test.txt
+  103  pwd
+  104  cd lab1
+  105  cat namelist.txt | sort -n -r
+  106  sort -n -r < namelist.txt
+  107  ls /usr/bin > test.txt
+  108  ls /usr/bin | sort -n -r > test.txt
+  109  man sort
+  110  ls /usr/bin/gcc | sort -n -r > test.txt 
+  111  ls /usr/bin | grep *gcc* | sort -n -r > test.txt 
+  112  ls /usr/bin | grep *.c | sort -n -r > test.txt 
+  113  ls /bin/gcc
+  114  ls /bin/gcc | grep *.c | sort -n -r > test.txt 
+  115  ls /bin/gcc | grep *.c
+  116  find gcc
+  117  sudo apt install gcc
+  118  ls /bin/gcc | grep *c | sort -n -r > test.txt 
+  119  ls /bin/gcc > grep *c | sort -n -r > test.txt 
+  120  ls /bin/gcc > grep *c* | sort -n -r > test.txt 
+  121  sudo ls /bin/gcc > grep *c* | sort -n -r > test.txt 
+  122  sudo ls /bin/gcc |  sort -n -r > test.txt 
+  123  ls /bin/gcc |  sort -n -r > test.txt 
+  124  ls /usr/bin |  sort -n -r > test.txt 
+  125  ls /usr/bin |  sort -n -r > grep *gcc* test.txt 
+  126  ls /usr/bin |  sort -n -r > grep *gcc* > test.txt 
+  127  ls /usr/bin |  sort -n -r > grep -i *gcc* > test.txt 
+  128  ls /usr/bin |  sort -n -r > grep -i "*gcc*" > test.txt 
+  129  ls /usr/bin |  sort -n -r > grep -i  > test.txt 
+  130  ls /usr/bin |  sort -n -r > grep -i "*gcc*" | test.txt 
+  131  ls /usr/bin | > grep -i "*gcc*" | test.txt 
+  132  ls /usr/bin |  grep -i "*gcc*" | test.txt 
+  133  ls /usr/bin |  grep -i "*gcc*" > test.txt 
+  134  ls /usr/bin |  grep -i gcc > test.txt 
+  135  ls /usr/bin |  grep -i gcc | > test.txt 
+  136  ls /usr/bin |  grep -i gcc | sort -n -r > test.txt 
+  137  ls /usr/bin |  grep -i gcc | sort -n -r > ex1.txt 
+  138  history > history.txt
