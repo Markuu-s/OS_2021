@@ -1,0 +1,4 @@
+Proccess using virtual addresses
+Hardware using physical addresses
+
+Virtual addresses can be more than physical addresses. If it more, virtual addresses recorded to hard disk.

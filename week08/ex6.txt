@@ -1,0 +1,8 @@
+Task: 
+    A machine has 16-bit virtual addresses. Pages are 8 KB. How
+    many entries are needed for a single-level linear page table?
+    Explain your computations. Save your answer to ex6.txt
+
+1) 8 Kb = 2^3 Kb = 2^3 * 2^10 bit = 2^13 bit
+2) So, we have machine, which has 16-bit virtual addresses => 16 - 13 = 3 bit
+3) In 3 bit we can store 2^3 = 8 entries
