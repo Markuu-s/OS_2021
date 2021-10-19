@@ -1,0 +1,7 @@
+For increace hit we can sort references
+If references will be unsorted, miss will be increace
+F.e.:
+1 2 3 4 5 6 ...(random order)
+5 3 2 6 4 1 ...(on order)
+
+Another solution to increace hit it refer to pages already existing in frames
