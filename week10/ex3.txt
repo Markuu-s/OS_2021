@@ -1,0 +1,18 @@
+-rw-r--r-- 1 mark mark  11 окт 27 01:01 _ex3.txt
+-rwxr--rwx 1 mark mark  11 окт 27 01:01 _ex3.txt
+-rwxrwxrwx 1 mark mark  11 окт 27 01:01 _ex3.txt
+
+What does 660 mean for ex3.txt?
+660 = _ 110 110 000 = -rw-rw---- it mean:
+    user can read and write
+    group can read and write
+    other has no permission
+
+What does 775 mean for ex3.txt?
+775 = _ 111 111 101 = -rwxrwxr-x it mean:
+    user can read, write and execute
+    group can read, write and execute
+    other can read and execute
+
+What does 777 mean for ex3.txt?
+775 = _ 111 111 101 = -rwxrwxrwx it mean than all have all permission
