@@ -1,0 +1,17 @@
+Recovery:
+This approach allows processes to deadlock, and then
+periodically check whether there is a deadlock in the system or not.
+If this happens, then it applies some recovery methods to
+the system.
+
+Prevention:
+A deadlock occurs only after mutual alienation.
+Prevetion more effective than recovery.
+
+Avoidance:
+Advantage: safe completion of the process. The process continues as long as the system is in a safe
+state. The OS should return one step when the safe state ends. To do this, you need to have a lot of information
+about each process, which leads to less efficiency.
+
+Avoidance more safety than other.
+But recovery more effective than Avoidance.
